@@ -23,8 +23,7 @@ Fibonacci:
 	addi $a0,	$a0,	-1
 	jal Fibonacci
 	
-	move	$s0,	$v0
-	
+	move $s0,	$v0
 	addi $a0,	$a0,	-1
 	jal Fibonacci
 	
@@ -42,6 +41,6 @@ return_one :
 	
 main :
 	
-	addi	$a0,	$zero,	6
+	addi	$a0,	$zero,	5
 	jal Fibonacci
 			
